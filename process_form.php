@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["email"];
     $mensaje = $_POST["mensaje"];
 
-    $destinatario = "tu_correo@example.com"; // Reemplaza con tu dirección de correo electrónico
+    $destinatario = "jjimenez@jdconsultit.com"; // Reemplaza con tu dirección de correo electrónico
     $asunto = "Nuevo mensaje de contacto";
     $cuerpo = "Nombre: " . $nombre . "\nEmail: " . $email . "\nMensaje: " . $mensaje;
     $encabezados = "From: tu_sitio@example.com"; // Reemplaza con tu dominio
